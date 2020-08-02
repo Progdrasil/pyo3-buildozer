@@ -7,7 +7,7 @@ This is an example of building a [PYO3] application using [buildozer].
 [buildozer]: https://github.com/kivy/buildozer
 [pyo3]: https://github.com/PyO3/pyo3
 
-#### Docker build
+## Docker build
 
 You can build the buildozer image with the following command:
 
