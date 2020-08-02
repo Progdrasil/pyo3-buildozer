@@ -146,5 +146,5 @@ dmypy.json
 # pytype static type analyzer
 .pytype/
 .buildozer/
-
+bin/
 # End of https://www.toptal.com/developers/gitignore/api/python

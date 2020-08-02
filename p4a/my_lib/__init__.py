@@ -65,7 +65,7 @@ class MyLibRecipe(NDKRecipe):
             )
             shutil.copyfile(
                 join(lib_dir, "libmy_lib.so"),
-                join(self.ctx.get_site_packages_dir(arch.arch), "my_lib", "my_lib.so"),
+                join(self.ctx.get_site_packages_dir(arch.arch), "my_lib.so"),
             )
 
 
