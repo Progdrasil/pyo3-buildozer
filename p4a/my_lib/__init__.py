@@ -21,6 +21,7 @@ class MyLibRecipe(NDKRecipe):
         env["LD_LIBRARY_PATH"] = link_root
         env["ANDROID_NDK_HOME"] = self.ctx.ndk_dir
         env["ANDROID_SDK_HOME"] = self.ctx.sdk_dir
+        env["RUSTFLAGS"] = f"-C link-args=-L{link_root} -lpython3.8m"
 
         return env
 
